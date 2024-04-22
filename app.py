@@ -5,7 +5,7 @@ import random
 app = Flask(__name__, template_folder='templates')
 app.config["EXPLAIN_TEMPLATE_LOADING"] = True
 
-API_KEY="lykcgdhGcXmrHVjsED7aXqDgn4L6pef78gmPdzRd"
+API_KEY="" # Add you API Key
 
 NASA_ENDPOINT="https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000"
 
